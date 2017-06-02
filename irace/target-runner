@@ -1,0 +1,5 @@
+#!/bin/bash
+
+java -jar FinalPO8.jar $4 $5 $6
+
+exit $?

@@ -152,7 +152,7 @@ fun main(args: Array<String>) {
 
     var ts = default.TS()
 
-    var iterations = 1000
+    var iterations = 100000
     var timeLimit = 5 * 60 * 1000
     var tenureSize = problem.size / args[1].toInt()
     var intensifyFrequency = args[2].toInt()
