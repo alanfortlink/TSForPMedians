@@ -12,6 +12,6 @@ data class Node(val x: Double, val y: Double){
     }
 
     fun getDistanceTo(node: default.Node) : Double{
-        return Math.sqrt( Math.pow(x - node.x, 2.0) + Math.pow(y - node.y, 2.0))
+        return Math.floor(Math.sqrt( Math.pow(x - node.x, 2.0) + Math.pow(y - node.y, 2.0)) + 0.5)
     }
 }

@@ -55,8 +55,6 @@ class TS{
                 break
             }
 
-
-            if(bestSolution.cost <= 3380){break}
         }
 
         println("${bestSolution.getSolutionCost()} ${timeSpent/1000}")
